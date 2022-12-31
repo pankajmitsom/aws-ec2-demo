@@ -30,3 +30,5 @@ server = aws.ec2.Instance('web-server-www',
 
 pulumi.export('public_ip', server.public_ip)
 pulumi.export('public_dns', server.public_dns)
+
+
